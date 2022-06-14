@@ -1,0 +1,27 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" version="2.0">
+    <tlib-version>1.0</tlib-version>
+    <short-name>it</short-name>
+    <uri>imgtags</uri>
+    <tag>
+        <name>imgtable</name>
+        <tag-class>by.bsu.soroka.ea.neko.tags.ImgTableTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>columns</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>int</type>
+        </attribute>
+        <attribute>
+            <name>group</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>int</type>
+        </attribute>
+    </tag>
+    <tag>
+        <name>imel</name>
+        <tag-class>by.bsu.soroka.ea.neko.tags.ImgElementTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+</taglib>
